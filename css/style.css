@@ -1,0 +1,179 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.centered-container {
+    width: 90%;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.flx {
+    display: flex;
+}
+
+button {
+    border-radius: 30px;
+    padding: 8px 15px;
+    border: none;
+    margin: 3px;
+}
+
+.black-btn {
+    color: white;
+    background: #23272A;
+}
+
+.blue-btn {
+    color: white;
+    background: #7289DA;
+}
+
+/* Header */
+
+header {
+    background: #255EE9;
+    padding-top: 40px;
+}
+
+nav {
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+nav div {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 15px;
+    display: inline-block;
+    height: 43px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.links {
+    flex-grow: 3;
+    text-align: center;
+    padding: 0;
+}
+
+header section {
+    background-color: #255EE9;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.first-sec {
+    width: 80%;
+    margin: 250px auto;
+    color: white;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 4rem;
+    margin: 40px 0;
+}
+
+header p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+
+.first-sec button {
+    margin-top: 20px;
+    padding: 15px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+header .black-btn {
+    margin-left: 15px;
+}
+
+/* Main */
+
+section {
+  padding: 50px 0;
+}
+
+.grey-bg {
+    background: #D3D3D3;
+}
+
+.azure-bg {
+    background: #1E90FF;
+    height: 500px;
+    flex-grow: 6;
+}
+
+.pink-bg {
+    background: #FFC0CB;
+    height: 500px;
+    flex-grow: 4;
+}
+
+.green-bg {
+    background: #228B22;
+    height: 900px;
+}
+
+/* Footer */
+
+footer {
+    background: #23272A;
+    border-bottom: 1px solid white;
+}
+
+footer section {
+    padding-top: 10px;
+    border-bottom: 2px solid white;
+}
+
+.salmon-bg {
+    background: #F08080;
+    height: 570px;
+    flex-grow: 3;
+}
+
+.turquoise-bg {
+    background: #20B2AA;
+    height: 570px;
+    flex-grow: 7;
+}
+
+.footer-info {
+    border: 2px dashed white;
+    flex-grow: 1;
+}
+
+.foot {
+    margin-top: 30px;
+    height: 80px;
+    background: #7FFFD4;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section {
+    background: #FFB6C1;
+    padding: 5px 10px;
+    font-size: 20px;
+}
