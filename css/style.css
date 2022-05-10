@@ -11,8 +11,8 @@ body {
 }
 
 .centered-container {
-    width: 90%;
-    max-width: 1800px;
+    width: 80%;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -22,7 +22,7 @@ body {
 
 button {
     border-radius: 30px;
-    padding: 8px 15px;
+    padding: 12px 15px;
     border: none;
     margin: 3px;
 }
@@ -37,16 +37,35 @@ button {
     background: #7289DA;
 }
 
+
+h2 {
+    font-size: 3.6rem;
+    margin: 40px 0;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 35px;
+}
+
+section {
+    padding: 50px 0;
+  }
+
+
+
+
 /* Header */
 
 header {
     background: #255EE9;
-    padding-top: 40px;
+    padding-top: 20px;
+    margin-bottom: 50px;
 }
 
 nav {
-    padding-bottom: 20px;
     font-size: 25px;
+    text-align: center;
 }
 
 nav div {
@@ -59,7 +78,6 @@ nav a {
     color: white;
     padding: 12px 15px;
     display: inline-block;
-    height: 43px;
 }
 
 nav a:hover {
@@ -69,7 +87,6 @@ nav a:hover {
 .links {
     flex-grow: 3;
     text-align: center;
-    padding: 0;
 }
 
 header section {
@@ -78,26 +95,14 @@ header section {
     background-size: cover;
 }
 
-.first-sec {
+.jumbotron {
     width: 80%;
     margin: 250px auto;
     color: white;
     text-align: center;
 }
 
-header h2 {
-    font-size: 4rem;
-    margin: 40px 0;
-}
-
-header p {
-    width: 90%;
-    margin: 0 auto;
-    font-size: 1.5rem;
-    line-height: 30px;
-}
-
-.first-sec button {
+.jumbotron button {
     margin-top: 20px;
     padding: 15px 20px;
     font-size: 1.5rem;
@@ -108,32 +113,45 @@ header .black-btn {
     margin-left: 15px;
 }
 
+
+
+
 /* Main */
 
-section {
-  padding: 50px 0;
+main section {
+    padding: 150px;
 }
 
-.grey-bg {
-    background: #D3D3D3;
+.cream-bg {
+    background: #F6F6F6;
 }
 
-.azure-bg {
-    background: #1E90FF;
-    height: 500px;
-    flex-grow: 6;
+.section-img {
+    padding-top: 20px;
 }
 
-.pink-bg {
-    background: #FFC0CB;
-    height: 500px;
-    flex-grow: 4;
+.section-big-img {
+    padding-top: 20px;
+    text-align: center;
 }
 
-.green-bg {
-    background: #228B22;
-    height: 900px;
+.section-text {
+    margin: 0 40px;
 }
+
+.downloader {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.downloader button {
+    font-size: 1.5rem;
+    margin-top: 60px;
+}
+
+
+
 
 /* Footer */
 
