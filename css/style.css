@@ -25,6 +25,7 @@ button {
     padding: 12px 15px;
     border: none;
     margin: 3px;
+    cursor: pointer;
 }
 
 .black-btn {
@@ -70,6 +71,10 @@ header {
 nav {
     font-size: 25px;
     text-align: center;
+}
+
+nav img {
+    padding-top: 12px;
 }
 
 nav div {
@@ -123,7 +128,7 @@ header .black-btn {
 /* Main */
 
 main section {
-    padding: 150px;
+    padding: 80px;
 }
 
 .grey-bg {
@@ -218,10 +223,15 @@ select {
     border: none;
     background: transparent;
     color: white;
+    font-size: 16px;
 }
 
 option {
     color: black;
+}
+
+.language-container {
+    padding: 10px 0;
 }
 
 .social {
