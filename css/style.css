@@ -20,12 +20,17 @@ body {
     display: flex;
 }
 
-button {
-    border-radius: 30px;
+.btn {
+    display: inline-block;
+    border-radius: 25px;
     padding: 12px 15px;
-    border: none;
-    margin: 3px;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.white-btn {
+    color: black;
+    background: white;
 }
 
 .black-btn {
@@ -73,10 +78,6 @@ nav {
     text-align: center;
 }
 
-nav img {
-    padding-top: 12px;
-}
-
 nav div {
     flex-grow: 1;
     padding: 20px;
@@ -89,7 +90,7 @@ nav a {
     display: inline-block;
 }
 
-nav a:hover {
+.links a:hover {
     text-decoration: underline;
 }
 
@@ -98,10 +99,16 @@ nav a:hover {
     text-align: center;
 }
 
+.login {
+    text-align: right;
+    font-size: 20px;
+}
+
 header section {
-    background-color: #255EE9;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: center;
+    max-height: 900px;
 }
 
 .jumbotron {
@@ -111,11 +118,10 @@ header section {
     text-align: center;
 }
 
-.jumbotron button {
+.jumbotron a {
     margin-top: 20px;
     padding: 15px 20px;
     font-size: 1.5rem;
-    cursor: pointer;
 }
 
 header .black-btn {
@@ -154,14 +160,16 @@ main section {
     font-size: 2rem;
 }
 
-.downloader button {
+.downloader a {
     font-size: 1.5rem;
     margin-top: 60px;
+    padding: 15px;
 }
 
 .stars {
     background-image: url(../img/stars.svg);
-    background-size: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 70px;
     width:60%;
     margin: 0 auto -20px;
